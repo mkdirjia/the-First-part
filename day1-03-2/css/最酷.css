@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* 通用 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+body{
+    min-width:1200px;
+}
+
+
+
+
+/* 头部 */
+.header{
+    background: #282633;
+}
+.header-c{
+    width: 1200px;
+    height: 54px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    width: 144px;
+    height: 35px;
+    text-align: center;
+    margin-top: 7px;
+    padding-right: 20px;
+    border-right: 2px solid #00000b;
+}
+.header-nav{
+    margin-left: 80px;
+}
+.header-nav a{
+    line-height: 54px;
+    display: block;
+    padding: 0 16px;
+    color: #fff;
+}
+.header-nav li:hover{
+    background: #1b1b27;
+}
+.header-login-btn,.header-register-btn{
+	width: 60px;
+	height: 26px;
+	background: transparent;
+	color: #fff;
+	border-radius: 5px;
+}
+.register-btn{
+	border: 1px solid green;
+}
+.header-login{
+	margin-top: 13px;
+}
+
+
+
+
+
+
+/* 云场景 */
+.yun{
+    background: url(../img/13.png) no-repeat center 0;
+}
+.yun-c{
+    width: 1100px;
+    height: 580px;
+    margin: 0 auto; 
+}
+.yun-txt{
+    width: 360px;
+    margin-left: 65px;
+    margin-top: 200px;
+    color: #146962;
+}
+.yun-pic{
+    margin-right: 15px;
+    margin-top: 100px;
+}
+.yun-p1{
+    font-size: 40px;
+}
+.yun-p2{
+    font-size: 18px;
+}
+
+
+
+
+/* 分类 */
+.sort-c{
+    width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+}
+.sort-part{
+    width: 25%;
+    text-align: center;
+    color: #787878;
+    margin-top: 60px;
+}
+.sort-p1{
+    margin-top: 24px;
+}
+.sort-p2{
+    font-size: 12px;
+    margin-top: 12px;
+    padding:0 30px;
+    /* line-height: 12px; */
+}
+
+
+
+/* 应用领域 */
+.field-1{
+    height: 116px;
+    margin: 0 auto;
+    background: #fafafa;
+}
+.field-1-c{
+    width: 1100px;
+    height: 116px;
+    margin: 0 auto;
+}
+.field-1-c h6{
+    line-height: 66px;
+    font-size: 28px;
+    text-align: center;
+}
+.field-1-c-t{
+    font-size: 15px;
+}
+.field-1-c-t li{
+    line-height: 36px;
+    padding:0 48px;
+    float: left;
+    border-right: 1px solid #b2b2b2;
+
+}
+.field-1-c-t .no{
+    border-right: none;
+}
+.tab{
+    background: #68ccaa;
+}
+.tab-c{
+    width: 1100px;
+    height: 520px;
+    margin: 0 auto;
+}
+.tab-txt{
+    width: 440px;
+    margin-left: 40px;
+    margin-top: 140px;
+    color: #fff;
+}
+.tab-pic{
+    margin-top: 34px;
+}
+.tab-h1{
+    font-size: 34px;
+}
+.tab-p1{
+    font-size: 19px;
+}
+.tab-h2{
+    font-size: 20px;
+}
+.yun-p2{
+    font-size: 14px;
+}
+
+
+/* 作品 */
+.work{
+    background: #fafafa;
+}
+.work-c{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 13px;
+}
+.work-t{
+	text-align: center;
+	line-height: 116px;
+	font-size: 26px;
+}
+.work-lists{
+	overflow: hidden;
+	padding-left: 24px;
+}
+.work-li{
+	float: left;
+	margin: 0 12px 20px;
+}
+.work-p{
+	line-height: 56px;
+	text-align: center;
+}
+.more{
+	display: block;
+	width: 164px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border: 1px solid #666666;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+
+
+
+/* 商标 */
+.brand{
+    height: 515px;
+}
+.brand-c{
+    width: 1100px;
+    height: 515px;
+    margin: 0 auto;
+}
+.brand-t{
+    font-size: 28px;
+    color: #646361;
+    text-align: center;
+    line-height: 120px;
+}
+
+
+/* 底部 */
+.footer{
+	background: #57586d;
+}
+.footer-c{
+	width: 1200px;
+	height: 197px;
+	margin: 0 auto;
+}
+.footer-a{
+	float: left;
+	color: #fff;
+}
+.footer-k{
+	font-size: 17px;
+	line-height: 28px;
+	margin-top: 32px;
+	margin-bottom: 48px;
+}
+.footer-nav a{
+	color:#fff;
+	font-size: 14px;
+	margin-right:22px ;
+}
+.footer-img{
+	margin-right: 30px;
+}
+.footer-nav{
+	line-height: 24px;
+}
+.footer-pic{
+	float: right;
+	margin-top: 28px;
+	color: #fff;
+}
+.footer-pic-s{
+	font-size: 12px;
+}
+
