@@ -12,3 +12,24 @@ img{
 a{
     text-decoration: none;
 }
+html,body{
+    height: 100%;
+}
+
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+
+.clear-fix:after{
+    content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}

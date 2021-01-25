@@ -1,0 +1,407 @@
+body{
+	min-width: 1000px;
+}
+/*头部*/
+.header{
+	width: 1000px;
+	height: 42px;
+	margin: 0 auto;
+}
+.header-pic{
+	width: 220px;
+	height: 42px;
+	background: url(../img/29.png) no-repeat 0 -38px;
+}
+
+.game{
+	font-size: 12px;
+	line-height: 42px;
+}
+.game-back{
+	background: url(../img/29.png) no-repeat -149px -131px;
+    margin-left: 5px;
+    padding-right: 12px;
+}
+.game:hover{
+	color: #ff4e00;
+}
+.game .game-back:hover{
+	background: url(../img/29.png) no-repeat  -169px -131px;
+}
+
+
+
+.grow{
+	font-size: 12px;
+	line-height: 42px;
+	margin-right: 28px;
+}
+.grow-back{
+	padding: 2px 0 2px 18px;
+	background:url(../img/29.png) no-repeat center center;
+	margin-right: 2px;
+}
+
+
+/*导航*/
+.nav{
+	background:url(../img/bg_header.jpg) no-repeat center center;
+}
+.nav-c{
+	width: 1000px;
+	height: 343px;
+	margin: 0 auto;
+}
+
+.nav-a{
+	position: relative;
+}
+.nav-list1{
+	width: 86px;
+	height: 34px;
+	position: absolute;
+	top: 33px;
+	left: 45px;
+	text-indent: -99999px;
+}
+.nav-list2{
+	width: 86px;
+	height: 34px;
+	position: absolute;
+	top: 33px;
+	left: 175px;
+	text-indent: -99999px;
+}
+.nav-list3{
+	width: 86px;
+	height: 34px;
+	position: absolute;
+	top: 33px;
+	left: 308px;
+	text-indent: -99999px;
+}
+.nav-list4 {
+	width: 164px;
+	height: 118px;
+	position: absolute;
+	top:0px;
+	left: 415px;
+	text-indent: -99999px;
+}
+
+.nav-list5{
+	width: 86px;
+	height: 34px;
+	position: absolute;
+	top: 33px;
+	left: 594px;
+	text-indent: -99999px;
+}
+.nav-list6{
+	width: 86px;
+	height: 34px;
+	position: absolute;
+	top: 33px;
+	left: 724px;
+	text-indent: -99999px;
+}
+
+.nav-list7{
+	width: 130px;
+	height: 78px;
+	position: absolute;
+	top: 212px;
+	left: 292px;
+}
+.nav-list8{
+	width: 108px;
+	height: 44px;
+	position: absolute;
+	top: 224px;
+	left: 486px;
+	text-indent: -99999px;
+}
+
+
+/*开始游戏*/
+.star{
+	height: 712px;
+	background: url(../img/bg_section.jpg) no-repeat center center;
+}
+.star-c{
+	width:1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.star-list1{
+	width: 200px;
+	height: 96px;
+	position: absolute;
+	top: 19px;
+	left: 26px;
+	text-indent: -99999px;
+}
+
+.star-cd{
+	width: 223px;
+	height: 94px;
+
+}
+
+.star-list2{
+	width: 212px;
+	height: 40px;
+	background: url(../img/sprites.jpg)no-repeat 4px 1px;
+	position: absolute;
+	top:168px;
+	left: 21px;
+	text-indent: -99999px;
+}
+.star-list3{
+	width: 212px;
+	height: 38px;
+	background: url(../img/sprites.jpg)no-repeat 4px -39px;
+	position: absolute;
+	top:210px;
+	left: 21px;
+	text-indent: -99999px;
+}
+.star-list4{
+	width: 400px;
+	height: 212px;
+	position: absolute;
+	top:23px;
+	left: 290px;
+
+}
+.star-list5{
+	width: 272px;
+	height: 212px;
+	border: 1px solid #000;
+	position: absolute;
+	top:23px;
+	right: 26px;
+}
+.star-list5 li{
+	width: 66px;
+	height: 30px;
+	border: 1px solid #000;
+	float: left;
+	background: #8e4817;
+	text-align: center;
+	line-height: 30px;
+}
+.star-list5 li:hover{
+	background: #feebc0;
+}
+.star-title	{
+	width: 274px;
+	height: 16px;
+	font-size: 14px;
+	text-align: center;
+	color:#f00;
+	position: absolute;
+	top: 60px;
+	right: 26px;
+	
+}
+
+.star-notice{
+	width: 273px;
+	height: 140px;
+	position: absolute;
+	top: 77px;
+	right: 28px;
+}
+.star-notice a{
+	color: #924a1a;
+}
+
+.star-gg{
+	font-size: 12px;
+	text-align: center;
+	line-height: 28px;
+	margin-left: 14px;
+}
+.star-day{
+	font-size: 12px;
+	text-align: center;
+}
+.star-qq{
+	width: 98px;
+	height: 98px;
+	border-radius: 50%;
+	background: url(../img/layer_ico.png)no-repeat 0 0;                    
+	position: absolute;
+	top: -118px;
+	left: 995px;
+}
+
+.nac-bottom{
+	width: 220px;
+	height: 214px;
+	position:absolute;
+	top: 292px;
+	left: 24px;
+}
+.nac-bottom1{
+	width: 24px;
+	height: 32px;
+	background: url(../img/sprites.jpg) no-repeat 1px -76px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.nac-bottom1-p{
+	width: 70px;
+	height: 22px;
+	font-size: 13px;
+	position: absolute;
+	top: 14px;
+	left: 52px;
+}
+.nac-list{
+	width: 198px;
+	height: 118px;
+	border-top: 1px solid #000;
+	margin-top: 48px;
+	margin-left: 11px;
+}
+.nac-list a{
+	color: #924a1a;
+}
+.nac-cdk{
+	width: 86px;
+	height: 26px;
+	background: #e4ab64;
+	font-size:14px;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 16px;
+	margin-left: 8px;
+}	
+
+.news{
+	width: 418px;
+	height: 212px;
+	border: 1px solid #000;
+	position: absolute;
+	top: 0px;
+	left: 236px;
+}
+.news-pic{
+	width: 29px;
+	height: 29px;
+	background: url(../img/sprites.jpg) -24px -78px;
+	position: absolute;
+	top: 10px;
+	left: 22px;
+}	
+.news-happy-p{
+	width: 70px;
+	height: 20px;
+	font-size: 13px;
+	position: absolute;
+	top:14px;
+	left:60px;
+}
+.news-more{
+	font-size: 14px;
+	opacity: 0.3;
+	float: right;
+	margin-right: 24px;
+	padding-top: 16px;
+}
+.news-happy{
+	width: 392px;
+	height: 152px;
+	border-top: 1px solid #000;
+	margin-top: 46px;
+	margin-left: 14px;
+}
+.news-happy a{
+	color: #924a1a;	
+}
+
+.news-actuve{
+	font-size: 12px;
+	line-height: 25px;
+}
+.active-pic1{
+	width: 276px;
+	height: 104px;
+	border: 1px solid #000;
+	position: absolute;
+	top: 1px;
+	right: -296px;
+}
+.active-p{
+	width: 74px;
+	height: 28px;
+	border: 1px solid #000;
+	position: absolute;
+	top: 60px;
+	right: 16px;
+	text-indent: -99999px;
+}
+
+.active-pic2{
+	width: 272px;
+	height: 100px;
+	border: 1px solid #000;
+	position: absolute;
+	top: 112px;
+	right: -296px;
+}
+
+
+/*底部*/
+.footer{
+	background: #6a9b42;
+}
+.footer-c{
+	width: 1000px;
+	height: 254px;
+	border: 1px solid transparent;
+	margin: 0 auto;
+	position: relative;
+}
+.footer-pic{
+	width: 230px;
+	height: 56px;
+	background: url(../img/f_logo.png) no-repeat 0px 7px;
+	position: absolute;
+	top:50px;
+	left: 38px;
+}	
+.footer-infor{
+	width: 676px;
+	height: 172px;
+	margin-top: 46px;
+	margin-left: 288px;
+}
+
+.footer-list{
+	width: 632px;
+	height: 22px;
+}
+.footer-list li{
+	font-size: 12px;
+	float: left;
+}
+.footer-list a{
+	color: #000;
+}
+.footer-cat{
+	width: 676px;
+	height: 138px;
+	font-size: 12px;
+	line-height:20px ;
+}
+.footer-img{
+	margin-right: 4px;
+}
+
+

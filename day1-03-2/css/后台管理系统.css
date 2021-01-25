@@ -1,0 +1,159 @@
+/* 头部 */
+.header{
+    height: 50px;
+    background: #438eb8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header-img{
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.header-name{
+    width: 76px;
+    /* height: 44px; */
+    color: #fff;
+    background: #63a8d1;
+    margin-right: 20px;
+    line-height: 44px;
+    border: 1px solid red;
+}
+.header-name option{
+    color: #fff;
+    background: #63a8d1;
+}
+
+
+
+/* 左侧 */
+.nav{
+    width: 190px;
+    background: #f2f2f2;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+}
+.nav-top{
+    height: 42px;
+    background: #6fb3e0 url(../img/OAsystem_10.png) no-repeat center center;
+}
+.nav-center li{
+    line-height: 39px;
+    padding-left: 66px;
+    border-bottom: 1px solid #cccccc;
+}
+.li1{
+    background: url(../img/OAsystem_15.png) no-repeat 14px center;
+}
+.li2{
+    background: url(../img/OAsystem_22.png) no-repeat 14px center;
+}
+.li3{
+    background: url(../img/OAsystem_27.png) no-repeat 14px center;
+}
+.li4{
+    background: url(../img/OAsystem_30.png) no-repeat 14px center;
+}
+.nav-center img{
+    margin-top: 14px;
+    padding-right: 17px;
+}
+.nav-bottom{
+    height: 28px;
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+}
+.nav-bottom-heng{
+    height: 0;
+    width: 160px;
+    border: 1px solid #9b9b9b;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.nav-bottom-img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+
+
+/* 右侧 */
+.content{
+    background: #fff;
+    position: fixed;
+    top: 50px;
+    left: 190px;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+.content-l{
+    height: 40px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #666;
+}
+.content-l p{
+    line-height: 40px;
+    margin-left: 16px;
+}
+.content-l span:hover{
+    color: #4b92ca;
+}
+.content-r{
+    position: relative;
+}
+.content-ss{
+    font-size: 13px;
+}
+.search-box{
+    width: 150px;
+    height: 26px;
+    border-radius: 6px;
+    margin-top: 6px;
+    color: #ddd;
+    margin-right: 38px;
+    border: 1px solid #4b92ca;
+}
+.content-r-img{
+    position: absolute;
+    top: 12px;
+    right: 44px;
+}
+.date-top{
+    height: 38px;
+    font-size: 23px;
+    margin-top: 34px;
+    text-align: center;
+}
+.date-top span{
+    font-weight: bold;
+}
+.date-table{
+    width: 94%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid #ddd;
+}
+th{
+    background: #f3f3f3;
+    color: #727378;
+    border: 1px solid #ddd;
+}
+.date-tr{
+    align: left;
+}

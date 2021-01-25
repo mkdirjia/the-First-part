@@ -1,0 +1,1217 @@
+.header-c,.logo-c,.nav-c,.recommend-c,.shop-c,.redmi-c,.phone-c,.tv-c,.homeapp-c,.tooth-c,.ai-c,.sound-c,.match-c,.mouse-c,.part-c,.towel-c,.around-c,.wei-c,.product-c,.content-c,.video-c,.help-c,.footer-c{
+    width: 1230px;
+}
+.phone-c,.tv-c,.homeapp-c,.tooth-c,.ai-c,.sound-c,.match-c,.mouse-c,.part-c,.towel-c,.around-c,.wei-c,.product-c,.content-c,.video-c,.footer-c{
+    background: #f5f5f5;
+}
+
+
+
+
+/* 头部 */
+.header{
+	background: #333;
+}
+.header-c{
+	height: 40px;
+	margin: 0 auto;
+}
+.header-nav li{
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 7px;
+	float: left;
+}
+.header-nav a{
+	color: #b1a9a6;
+}
+.shoping{
+	width: 120px;
+	height: 40px;
+	float: right;
+	background: #424242 url(../img/49.png) no-repeat 15px 13px;
+}
+.header-p{
+	font-size: 12px ;
+	margin-left: 38px;
+	margin-top: 13px;
+}
+.header-p a{
+	color: #beacac;
+}
+.header-nav2{
+	float: right;
+	margin-right: 24px;
+}
+.header-nav2 li{
+	font-size: 12px;
+	
+	text-align: center;
+	line-height: 40px;
+	margin-left: 5px;
+	float: left;
+}
+.header-nav2 a{
+	color: #b1a9a6;
+}	
+
+
+
+
+/* logo */
+.logo-c{
+    height: 100px;
+    margin: 0 auto;
+}
+.logo-l-img{
+    width: 55px;
+    height: 55px;
+    padding: 22px 189px 0 0;
+}
+.logo-nav{
+    color: #29333f;
+    line-height: 100px;
+    padding-right: 20px;
+}
+.logo-r{
+    width: 300px;
+    height: 50px;
+    margin-top: 24px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+.logo-r-img{
+    display: block;
+    width: 23px;
+    height: 20px;
+    padding: 14px 17px 15px 17px;
+    border: 1px solid #dcdcdc;
+}
+.logo-r-po1{
+    width: 68px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #7b797a;
+    background: #ebecf1;
+    position: absolute;
+    top: 15px;
+    right: 67px;
+}
+.logo-r-po2{
+    width: 40px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #7b797a;
+    background: #ebecf1;
+    position: absolute;
+    top: 15px;
+    right: 139px;
+}
+
+
+
+
+
+/* 导航 */
+.nav-c{
+    height: 460px;
+    margin: 0 auto;
+}
+.nav-l{
+    width: 234px;
+    height: 420px;
+    background: #470d0c;
+    padding: 20px 0;
+}
+.nav-l li{
+    line-height: 42px;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 30px;
+    background: url(../img/40.png) no-repeat 200px center;
+}
+.nav-l li:hover{
+    background:orange url(../img/40.png) no-repeat 200px center;
+}
+.nav-r{
+    width: 996px;
+    height: 460px;
+}
+.nav img{
+    width: 996px;
+    height: 460px;
+}
+
+
+
+
+/* 推荐 */
+.recommend-c{
+    height: 226px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+.recommend-l{
+    width: 234px;
+    height: 170px;
+    font-size: 12px;
+    background: url(../img/42.png) no-repeat center center;
+}
+.recommend-l-list{
+    width: 78px;
+    height: 86px;
+    float: left;
+    text-align: center;
+}
+.recommend-l-list img{
+    width: 38px;
+    height: 30px;
+    margin-top: 16px;
+}
+.recommend-l-list a{
+    display: block;
+    line-height: 18px;
+    color: #fff;
+}
+.recommend-img{
+    width: 316px;
+    height: 170px;
+    margin-left: 16px;
+}
+
+
+
+
+
+/* 闪购 */
+.shop-c{
+    height: 426px;
+    margin: 0 auto;
+}
+.shop-top{
+    height: 43px;
+    font-size: 24px;
+}
+.shop-top h4{
+    color: #393d2f;
+    font-weight: normal;
+}
+.shop-top img{
+    width: 36px;
+    height: 21px;
+    margin-top: 13px;
+}
+.shop-bot-img1{
+    width: 234px;
+    height: 340px;
+}
+.shop-box{
+    width: 234px;
+    height: 340px;
+    background: #fafafa;
+    margin-left: 13px;
+    text-align: center;
+}
+.shop-pic1{
+    width: 53px;
+    height: 127px;
+    margin-top: 64px;
+}
+.shop-pic2{
+    width: 125px;
+    height: 126px;
+    margin-top: 64px;
+}
+.shop-title{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 39px;
+    margin-bottom: 8px;
+}
+.shop-info{
+    font-size: 10px;
+    color: #a6a8a7;
+}
+.price{
+    font-size: 14px;
+    margin-top: 18px;
+}
+.new-price{
+    color: #ff5f00;
+}
+.old-price{
+    color: #a6a8a7;
+    text-decoration: line-through;
+}
+
+
+
+
+
+/* 红米6A */
+.redmi-c{
+    height: 166px;
+    margin: 0 auto;
+}
+.redmi-c img{
+    width: 1230px;
+    height: 120px;
+}
+
+
+
+
+
+/* 手机 */
+.phone-c{
+    height: 735px;
+    margin: 0 auto;
+}
+.phone-top{
+    height: 43px;
+    padding-top: 36px;
+}
+.phone-top h4{
+    font-size: 24px;
+    color: #393d2f;
+    font-weight: normal;
+}
+.phone-top img{
+    width: 26px;
+    height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+.phone-top p{
+    font-size: 17px;
+    font-weight: normal;
+    color: #393d2f;
+}
+.phone-bot-img1{
+    width: 234px;
+    height: 614px;
+}
+.phone-box{
+    width: 236px;
+    height: 298px;
+    background: #fff;
+    margin-left: 13px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.phone-bot-img2{
+    width: 137px;
+    height: 136px;
+    margin-top: 22px;
+}
+.phone-bot-img3{
+    width: 137px;
+    height: 136px;
+    margin-top: 3px;
+}
+.phone-title{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+.phone-info{
+    font-size: 10px;
+    color: #a6a8a7;
+}
+.price{
+    font-size: 14px;
+    margin-top: 14px;
+}
+.new-price{
+    color: #ff5f00;
+}
+.old-price{
+    color: #a6a8a7;
+    text-decoration: line-through;
+}
+.off-phone{
+    width: 64px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin: auto auto;
+    background: #e53935;
+}
+
+
+
+
+
+
+/* 电视 */
+.tv-c{
+    height: 120px;
+    margin: 0 auto;
+}
+.tv-c img{
+    width: 1230px;
+    height: 120px;
+}
+
+
+
+
+/* 家电 */
+.homeapp-c{
+    height: 736px;
+    margin: 0 auto;
+}
+.homeapp-top{
+    height: 43px;
+    padding-top: 36px;
+}
+.homeapp-top h4{
+    font-size: 24px;
+    color: #393d2f;
+    font-weight: normal;
+}
+.homeapp-top img{
+    width: 26px;
+    height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+.homeapp-top p{
+    font-size: 17px;
+    font-weight: normal;
+    color: #393d2f;
+}
+.homeapp-bot-img1{
+    width: 234px;
+    height: 614px;
+}
+.homeapp-box{
+    width: 236px;
+    height: 298px;
+    background: #fff;
+    margin-left: 13px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.homeapp-bot-img2{
+    width: 137px;
+    height: 136px;
+    margin-top: 22px;
+}
+.homeapp-bot-img3{
+    width: 137px;
+    height: 136px;
+    margin-top: 3px;
+}
+.homeapp-title{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+.homeapp-info{
+    font-size: 10px;
+    color: #a6a8a7;
+}
+.price{
+    font-size: 14px;
+    margin-top: 14px;
+}
+.new-price{
+    color: #ff5f00;
+}
+.old-price{
+    color: #a6a8a7;
+    text-decoration: line-through;
+}
+.off-homeapp{
+    width: 64px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin: auto auto;
+    background: #e53935;
+}
+
+
+
+
+
+
+
+/* 牙刷 */
+.tooth-c{
+    height: 120px;
+    margin: 0 auto;
+}
+.tooth-c img{
+    width: 1230px;
+    height: 120px;
+}
+
+
+
+
+
+
+/* 智能 */
+.ai-c{
+    height: 739px;
+    margin: 0 auto;
+}
+.ai-top{
+    height: 43px;
+    padding-top: 36px;
+}
+.ai-top h4{
+    font-size: 24px;
+    color: #393d2f;
+    font-weight: normal;
+}
+.ai-top img{
+    width: 26px;
+    height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+.ai-top p{
+    font-size: 17px;
+    font-weight: normal;
+    color: #393d2f;
+}
+.ai-bot-img1{
+    width: 234px;
+    height: 614px;
+}
+.ai-box{
+    width: 236px;
+    height: 298px;
+    background: #fff;
+    margin-left: 13px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.ai-bot-img2{
+    width: 137px;
+    height: 136px;
+    margin-top: 22px;
+}
+.ai-bot-img3{
+    width: 137px;
+    height: 136px;
+    margin-top: 3px;
+}
+.ai-title{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+.ai-info{
+    font-size: 10px;
+    color: #a6a8a7;
+}
+.price{
+    font-size: 14px;
+    margin-top: 14px;
+}
+.new-price{
+    color: #ff5f00;
+}
+.old-price{
+    color: #a6a8a7;
+    text-decoration: line-through;
+}
+.off-ai{
+    width: 64px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin: auto auto;
+    background: #e53935;
+}
+
+
+
+
+/* 音箱 */
+.sound-c{
+    height: 120px;
+    margin: 0 auto;
+}
+.sound-c img{
+    width: 1230px;
+    height: 120px;
+}
+
+
+
+
+/* 搭配 */
+.match-c{
+    height: 736px;
+    margin: 0 auto;
+}
+.match-top{
+    height: 43px;
+    padding-top: 36px;
+}
+.match-top h4{
+    font-size: 24px;
+    color: #393d2f;
+    font-weight: normal;
+}
+.match-top img{
+    width: 26px;
+    height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+.match-top p{
+    font-size: 17px;
+    font-weight: normal;
+    color: #393d2f;
+}
+.match-bot-img1{
+    width: 234px;
+    height: 614px;
+}
+.match-box{
+    width: 236px;
+    height: 298px;
+    background: #fff;
+    margin-left: 13px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.match-bot-img2{
+    width: 137px;
+    height: 136px;
+    margin-top: 22px;
+}
+.match-bot-img3{
+    width: 137px;
+    height: 136px;
+    margin-top: 3px;
+}
+.match-title{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+.match-info{
+    font-size: 10px;
+    color: #a6a8a7;
+}
+.price{
+    font-size: 14px;
+    margin-top: 14px;
+}
+.new-price{
+    color: #ff5f00;
+}
+.old-price{
+    color: #a6a8a7;
+    text-decoration: line-through;
+}
+.off-match{
+    width: 64px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin: auto auto;
+    background: #e53935;
+}
+
+
+
+
+
+/* 鼠标 */
+.mouse-c{
+    height: 120px;
+    margin: 0 auto;
+}
+.mouse-c img{
+    width: 1230px;
+    height: 120px;
+}
+
+
+
+
+
+
+/* 配件 */
+.part-c{
+    height: 736px;
+    margin: 0 auto;
+}
+.part-top{
+    height: 43px;
+    padding-top: 36px;
+}
+.part-top h4{
+    font-size: 24px;
+    color: #393d2f;
+    font-weight: normal;
+}
+.part-top img{
+    width: 26px;
+    height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+.part-top p{
+    font-size: 17px;
+    font-weight: normal;
+    color: #393d2f;
+}
+.part-bot-img1{
+    width: 234px;
+    height: 614px;
+}
+.part-box{
+    width: 236px;
+    height: 298px;
+    background: #fff;
+    margin-left: 13px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.part-bot-img2{
+    width: 137px;
+    height: 136px;
+    margin-top: 22px;
+}
+.part-bot-img3{
+    width: 137px;
+    height: 136px;
+    margin-top: 3px;
+}
+.part-title{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+.part-info{
+    font-size: 10px;
+    color: #a6a8a7;
+}
+.price{
+    font-size: 14px;
+    margin-top: 14px;
+}
+.new-price{
+    color: #ff5f00;
+}
+.old-price{
+    color: #a6a8a7;
+    text-decoration: line-through;
+}
+.off-part{
+    width: 64px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin: auto auto;
+    background: #e53935;
+}
+
+
+
+
+/* 毛巾 */
+.towel-c{
+    height: 120px;
+    margin: 0 auto;
+}
+.towel-c img{
+    width: 1230px;
+    height: 120px;
+}
+
+
+
+
+/* 周边 */
+.around-c{
+    height: 736px;
+    margin: 0 auto;
+}
+.around-top{
+    height: 43px;
+    padding-top: 36px;
+}
+.around-top h4{
+    font-size: 24px;
+    color: #393d2f;
+    font-weight: normal;
+}
+.around-top img{
+    width: 26px;
+    height: 23px;
+    display: block;
+    margin-left: 10px;
+}
+.around-top p{
+    font-size: 17px;
+    font-weight: normal;
+    color: #393d2f;
+}
+.around-bot-img1{
+    width: 234px;
+    height: 614px;
+}
+.around-box{
+    width: 236px;
+    height: 298px;
+    background: #fff;
+    margin-left: 13px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.around-bot-img2{
+    width: 137px;
+    height: 136px;
+    margin-top: 22px;
+}
+.around-bot-img3{
+    width: 137px;
+    height: 136px;
+    margin-top: 3px;
+}
+.around-title{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+.around-info{
+    font-size: 10px;
+    color: #a6a8a7;
+}
+.price{
+    font-size: 14px;
+    margin-top: 14px;
+}
+.new-price{
+    color: #ff5f00;
+}
+.old-price{
+    color: #a6a8a7;
+    text-decoration: line-through;
+}
+.off-around{
+    width: 64px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin: auto auto;
+    background: #e53935;
+}
+
+
+
+
+/* 为你推荐 */
+.wei-c{
+    height: 380px;
+    margin: 0 auto;
+}
+.wei-pic2-you{
+	width: 234px;
+	height: 342px;
+	text-align: center;
+    background: #fafafa;
+    margin-left: 15px;
+}
+.wei-pic2-you-1{
+	width: 234px;
+	height: 342px;
+	text-align: center;
+    background: #fafafa;
+}
+.wei-pic2-you img{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.wei-pic2-you-1 img{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.wei-pic2-p2-ren{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.wei{
+	width: 1230px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.wei-c{
+	width: 1230px;
+	height: 42px;
+}
+.wei-c1{
+	font-size: 21px;
+	color: #393d2f;
+}
+.wei-c2 img{
+	margin-top: 10px;
+}
+
+.wei-pic2{
+	width: 236px;
+	height: 342px;
+	text-align: center;
+background: #fafafa;
+margin-left: 12px;
+}
+.wei-pic2 img{
+	margin-top:20px;
+	margin-left: 30px;
+}
+.wei-pic2-p1{
+	font-size: 14px;
+	margin-top: 35px;
+}
+.wei-pic2-p2{
+	font-size: 12px;
+	color: #c9bfb6;
+	margin-top: 12px;
+}
+.wei-pic2-p3{
+	font-size: 14px;
+	color: #f66411;
+	margin-top: 20px;
+}
+.wei-pic2-span{
+	color: #c9bfb6;
+	text-decoration: line-through;
+}
+
+.wei-banner-c{
+	width: 1230px;
+	height: 120px;
+	margin:0 auto;
+}
+.wei-banner-c img{
+	position: absolute;
+	top: 424px;
+	left: 1px;
+}
+.wei-pic1{
+	border-top: 1px solid #e53a32;
+}
+.tint1{
+	border-top: 1px solid #ffaa15;
+}
+.tint2{
+	border-top: 1px solid #81c451;
+}
+.tint3{
+	border-top: 1px solid #1f96f4;
+}
+.tint4{
+	border-top: 1px solid #e43b34;
+}
+
+
+
+
+
+
+/* 热评 */
+.product-c{
+	height: 458px;
+	margin: 0 auto;
+}
+.product-c-p{
+	height: 45px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.product-c-pic{
+	width: 1230px;
+	height: 416px;
+	
+}
+.product-pic-small{
+	width: 297px;
+	height: 410px;
+	float: left;
+    margin-right: 10px;
+    background: #fff;
+}
+.product-p1{
+	font-size: 12px;
+	line-height: 25px;
+	margin: 32px 52px 30px 41px;
+}
+.product-p2{
+	font-size: 12px;
+	color: #b0b0b0;
+	margin-left: 41px;
+	margin-bottom: 16px;
+}
+.product-p3{
+	margin-left: 41px;
+}
+.product-p4{
+	margin-left: 41px;
+	color:#ff6800 ;
+}
+.product-pic-small img{
+    width: 297px;
+    height: 218px;
+}
+
+
+
+
+/*内容*/
+.content{
+	background: #f5f5f5;
+}
+.content-c{
+	width: 1230px;
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.content-c-p{
+	height: 40px;
+	font-size: 22px;
+	margin-top: 40px;
+}
+.content-pic{
+	height: 420px;
+	width: 1230px;
+}
+.content-pic-1{
+	width: 295px;
+	height: 420px;
+	background: #fff;
+	text-align: center;
+	
+	margin-right: 12px;
+}
+.content-word1{
+	font-size: 14px;
+	color:#f7ae07 ;
+	margin-bottom: 25px;
+	margin-top: 46px;
+}
+.content-word2{
+	font-size: 20px;
+	margin-bottom: 14px;
+}
+.content-word3,.content-word4{
+	font-size: 12px;
+	color:#aeafb3 ;
+	line-height: 20px;
+}
+.content-word5{
+	margin-top: 20px;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.content-pic-1 img{
+    width: 100px;
+    height: 170px;
+}
+.yanse1{
+	border-top: 1px solid #ffaa12;
+}
+
+
+
+
+
+/*视频*/
+.video{
+	background: #f5f5f5;
+}
+.video-c{
+	width: 1230px;
+	height: 426px;
+	margin: 0 auto;
+}
+.video-c-p{
+	width: 1230px;
+	height: 60px;
+}
+.video-c-p1{
+	width: 70px;
+	font-size: 22px;
+	margin-top: 30px;
+}
+.video-c-p2{
+	font-size: 14px;
+	margin-top: 40px;
+}
+.video-pic{
+	width: 1230px;
+	height: 346px;
+}
+.video-pic-s{
+	width: 297px;
+	height: 286px;
+	background: #fff;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+}
+.video-pic-p1{
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+.video-pic-p2{
+	color: #7b797a;
+}
+.video-pic-s img{
+    width: 298px;
+    height: 180px;
+}
+
+
+
+
+
+/*预约维修服务*/
+.order{
+	width: 1230px;
+	height: 276px;
+	margin: 0 auto;
+}
+.order-list{
+	width: 1230px;
+	height: 80px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.order-list-1{
+	width: 245px;
+	height: 34px;
+	border-right: 1px solid #dfdfdf;
+	margin-top: 24px;
+	text-align: center;
+	line-height: 34px;
+}
+.order-list-1 img{
+    width: 33px;
+    height: 33px;
+}
+.order-list-1 a{
+	font-size: 12px;
+	color: #86604b;
+	
+}
+.order-list-li{
+	width: 1230px;
+	height: 120px;
+	margin-top: 40px;
+}
+.order-list-box{
+	width: 976px;
+	height: 112px;
+}
+.order-list-help{
+	width: 60px;
+	height: 112px;
+	margin-right: 100px;
+}
+h5{
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	
+}
+.order-list-help a{
+	font-size: 12px;
+	color:#6d6f6e ;
+	line-height: 28px;
+}
+.order-list-box2{
+	width: 250px;
+	height: 112px;
+	border-left: 1px solid #dfdfdf;
+	font-size: 12px;
+	text-align: center;
+	
+}
+.order-list-box-p1{
+	font-size: 20px;
+	color: #ff660a;
+}
+.order-list-box-p4{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #ff660a;
+	margin-left: 66px;
+	margin-top: 20px;
+	line-height: 30px;
+}
+.order-list-box-p4 a{
+	color: #ff660a;
+}
+
+
+
+
+/*底部*/
+.footer{
+	background: #f5f5f5;
+}
+.footer-c{
+	width: 1230px;
+	height: 164px;
+	margin: 0 auto;
+}
+.footer-list{
+	width: 1230px;
+	height: 60px;
+	margin-top: 30px;
+}
+.footer-img{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.footer-list-box{
+	width: 650px;
+	height: 60px;
+	
+	font-size: 12px;
+	
+}
+.footer-list-box-p2,.footer-list-box-p3{
+	color: #a7aeb8;
+}
+.footer-list-pic img{
+    width: 441px;
+    height: 36px;
+}
+.footer-list{
+    padding-top: 36px;
+}
+.footer-ts{
+	
+	font-size: 18px;
+	color: #bcbcbc;
+	margin-top: 35px;
+	margin-left: 476px;
+}
+
+
+

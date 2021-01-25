@@ -55,17 +55,10 @@ a{
     left: 50%;
     margin-left: -949px;
 }
-.wrap-d{
-    display: block;
-    color:#0088fc;
-    font-size: 30px;
-    position: absolute;
-    
-}
 
 
 
-/* 企业新闻 */
+/* 首页 */
 .sy{
     border-bottom:1px solid #9b9b9b;
 }
